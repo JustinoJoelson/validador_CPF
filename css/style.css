@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    display:flex;
+    justify-content: center;
+    margin-top:5%;
+}
+
+.container {
+    
+    display:flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+}
+
+
+button {
+    height: 2.5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: aliceblue;
+    margin-top: 10px;
+    background-color: rgb(37, 106, 184);
+    border-radius: 5px;
+    border: none;
+    width: 250px;   
+}
+
+input {
+    border-radius: 5px;
+    height: 2.5em;
+    text-align: center;
+}
+
+.container-cpf {
+    display:flex;
+    justify-content: center;
+    margin-top: 2%;
+}
